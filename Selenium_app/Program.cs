@@ -14,7 +14,6 @@ namespace Selenium_app
 
          //   driver.Manage().Timeouts().ImplicitWait.Milliseconds.(10, TimeUnit.SECONDS);
             driver.Url = "http://youtube.com";
-
             driver.FindElement(By.CssSelector("#search")).SendKeys("Денчик грудные");
             driver.FindElement(By.CssSelector("#search-icon-legacy > yt-icon")).Click();
             Thread.Sleep(10000);
